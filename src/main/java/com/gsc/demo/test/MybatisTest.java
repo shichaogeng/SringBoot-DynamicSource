@@ -13,7 +13,6 @@ import org.springframework.test.context.web.WebAppConfiguration;
 
 import com.gsc.demo.DemoApplication;
 import com.gsc.demo.domain.Student;
-import com.gsc.demo.mapper.StudentMapper;
 import com.gsc.demo.service.StudentService;
 
 @RunWith(SpringJUnit4ClassRunner.class)

@@ -28,7 +28,7 @@ public class StudentServiceImpl implements StudentService {
 	 * @return
 	 */
 	@Override
-	@TargetDataSource(name="ds1")
+	@TargetDataSource(name="ds2")
 	public List<Student> likeName(String name) {
 		return studentMapper.likeName(name);
 	}
